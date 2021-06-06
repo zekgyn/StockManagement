@@ -25,6 +25,9 @@ RewriteRule ^invoices?$ invoices.php
 RewriteRule ^credit?$ credit.php
 RewriteRule ^credits?$ credits.php
 RewriteRule ^creditors?$ creditors.php
+RewriteRule ^changepassword?$ changepassword.php
+RewriteRule ^admins?$ admins.php
+RewriteRule ^addadmin?$ addadmin.php
 RewriteRule ^settings?$ settings.php
 RewriteRule ^dashboard?$ dashboard.php
 ErrorDocument 404 http://socialcodia.net/unanipharmaitem/404.html
